@@ -9,12 +9,12 @@ fun fizzBuzz(i: Int) = when {
 
 fun main() {
   for (i in 1..100) {
-    print(chapter02.part05.fizzBuzz(i))
+    print(fizzBuzz(i))
   }
   for (i in 100 downTo 1 step 2) {
-    print(chapter02.part05.fizzBuzz(i))
+    print(fizzBuzz(i))
   }
   for (i in 1 until 100) {
-    print(chapter02.part05.fizzBuzz(i))
+    print(fizzBuzz(i))
   }
 }
